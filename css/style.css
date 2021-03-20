@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    background-color: skyblue;
+    margin-top: 50px;
+}
+.head {
+    background-color: navy;
+    
+    margin-bottom: 30px;
+}
+.head h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.form-field{
+    text-align: center;
+}
+.form-field input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px ;
+   
+}
+
+.form-field button{
+    width: 200px;
+    height: 50px;
+    background-color: navy;
+    color: #fff;
+    border-radius: 3px;
+    border: 2px solid navy;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-field p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pass-field {
+    position: relative;
+}
+.pass-field i{
+    position: absolute;
+    text-align: center;
+    right: 60px;
+    top: 0;
+    width: 40px;
+    height: 42px;
+    color: white;
+    line-height: 40px;
+    background-color: navy;
+    border-radius: 5px;
+    border: 1px solid navy;
+}

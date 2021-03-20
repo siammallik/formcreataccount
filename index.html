@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>form</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="form">
+    <div class="head">
+        <h1>Creat Account</h1>
+    </div>
+    <form action="#" method="POST">
+        <div class="form-field">
+            <input type="text" placeholder="Your first Name" id="firstname">
+            <p id="err"></p>
+        </div>
+        <div class="form-field">
+            <input type="text" placeholder="Your last Name" id="lastname">
+            <p id="lst_err"></p>
+        </div>
+        <div class="form-field">
+            <input type="email" placeholder="Your Email" id="email">
+            <p id="eml_err"></p>
+        </div>
+        <div class="form-field pass-field">
+            <input type="password" placeholder="Your password" id="password">
+            <p id="pass_err"></p>
+            <i class="fa fa-eye" onclick="passshow()"></i>
+        </div>
+        <div class="form-field pass-field">
+            <input type="password" placeholder="Confirm Password" id="con-password">
+            <p id="conpass_err"></p>
+            <i class="fa fa-eye" onclick="passshow2()"></i>
+        </div>
+        <div class="form-field">
+            <button onclick="return sub()" type="submit">Submit</button>
+        </div>
+    </form>
+
+</div>
+
+ <script src="js/custom.js"></script>   
+</body>
+</html>
